@@ -1,0 +1,10 @@
+{
+  "profile": {
+    "port": 3001,
+    "entry": "http://localhost:3001/mf-manifest.json"
+  },
+  "summary": {
+    "port": 3002,
+    "entry": "http://localhost:3002/mf-manifest.json"
+  }
+}

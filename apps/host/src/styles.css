@@ -1,0 +1,6 @@
+/* The host owns the page, so it is the one that ships Preflight. */
+@import 'tailwindcss';
+@import '@people-hub/ui/theme.css';
+
+@source '../src';
+@source '../../../packages/ui/src';

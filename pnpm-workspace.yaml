@@ -1,0 +1,11 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+# Native binaries these packages need at runtime (swc transpiler, tailwind scanner).
+allowBuilds:
+  '@swc/core': true
+  '@tailwindcss/oxide': true
+
+minimumReleaseAgeExclude:
+  - lucide-react@1.49.0

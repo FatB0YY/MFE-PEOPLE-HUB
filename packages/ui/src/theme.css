@@ -1,0 +1,39 @@
+/*
+ * Design tokens shared by the host and both remotes.
+ *
+ * The theme is part of the contract, not a local setting: if two bundles
+ * disagreed about what `bg-primary` means, the same utility class would carry
+ * different values and whichever bundle loaded last would win.
+ */
+@theme {
+  --color-background: oklch(0.977 0.004 286.32);
+  --color-foreground: oklch(0.21 0.02 285.885);
+
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.21 0.02 285.885);
+
+  --color-muted: oklch(0.967 0.001 286.375);
+  --color-muted-foreground: oklch(0.552 0.016 285.938);
+
+  --color-border: oklch(0.917 0.004 286.32);
+  --color-input: oklch(0.917 0.004 286.32);
+  --color-ring: oklch(0.54 0.21 287.5);
+
+  --color-primary: oklch(0.54 0.21 287.5);
+  --color-primary-foreground: oklch(0.985 0 0);
+  --color-primary-soft: oklch(0.951 0.028 287.5);
+
+  --color-destructive: oklch(0.577 0.245 27.325);
+  --color-destructive-foreground: oklch(0.985 0 0);
+  --color-destructive-soft: oklch(0.958 0.032 27.325);
+
+  --color-success: oklch(0.63 0.15 150);
+  --color-success-foreground: oklch(0.985 0 0);
+  --color-success-soft: oklch(0.955 0.04 150);
+
+  /* The dark bar the host paints across the top of the page. */
+  --color-shell: oklch(0.243 0.032 285);
+  --color-shell-foreground: oklch(0.96 0.005 286);
+  --color-shell-muted: oklch(0.72 0.02 286);
+  --color-shell-border: oklch(0.33 0.03 285);
+}

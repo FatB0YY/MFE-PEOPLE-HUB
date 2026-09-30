@@ -1,0 +1,35 @@
+{
+  "name": "@people-hub/mfe-profile",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@people-hub/api-client": "workspace:*",
+    "@people-hub/contracts": "workspace:*",
+    "@people-hub/ui": "workspace:*",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router": "^8.4.0"
+  },
+  "devDependencies": {
+    "@module-federation/enhanced": "2.9.2",
+    "@people-hub/mock-api": "workspace:*",
+    "@swc/core": "^1.16.12",
+    "@tailwindcss/webpack": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "css-loader": "^7.1.5",
+    "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
+    "swc-loader": "^0.2.7",
+    "tailwindcss": "^4.3.3",
+    "typescript": "6.0.3",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  }
+}

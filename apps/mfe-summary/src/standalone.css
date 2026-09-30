@@ -1,0 +1,3 @@
+/* Standalone only: under the host, Preflight already comes from the host. */
+@layer theme, base, components, utilities;
+@import 'tailwindcss/preflight.css' layer(base);

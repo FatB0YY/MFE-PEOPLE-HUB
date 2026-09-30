@@ -1,0 +1,9 @@
+dist/
+node_modules/
+@mf-types/
+pnpm-lock.yaml
+
+# Tooling installed into the repository, not project sources.
+.claude/
+.agents/
+skills-lock.json

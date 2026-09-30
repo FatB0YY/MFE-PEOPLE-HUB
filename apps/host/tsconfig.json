@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    // Types of the remotes are generated into @mf-types by Module Federation
+    // when the remotes are running. See README, section "Запуск".
+    "paths": {
+      "*": ["./@mf-types/*"]
+    }
+  },
+  "include": ["src"]
+}

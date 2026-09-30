@@ -1,0 +1,11 @@
+/*
+ * Theme and utilities only. Preflight is shipped by the host, and applying it
+ * twice on one page would reset the host's own styles.
+ */
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import '@people-hub/ui/theme.css';
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@source '../src';
+@source '../../../packages/ui/src';
